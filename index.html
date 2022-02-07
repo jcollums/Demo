@@ -1,10 +1,16 @@
 <html>
   <body>
     <script>
-      function main() {
-        alert("This is an alert");
-        alert("This is a second alert")
+      const main = () => {
+        if (true) {
+          const doAlert = confirm("Show alert?");
+          if (doAlert) {
+            alert("This is an alert!")
+          }
+          alert("!")
+        }
       }
+      alert("?")
       main();
     </script>
   </body>
